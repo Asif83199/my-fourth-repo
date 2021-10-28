@@ -1,0 +1,43 @@
+body{
+    font-family: 'Festive', cursive;
+    font-family: 'Zen Old Mincho', serif;
+    margin: 0%;
+    padding-left: 3%;
+}
+h1{
+    font-size: 50px;
+    padding: 5px;;
+}
+h2{
+    color: rgb(109, 109, 17);
+    font-size: 80px;
+}
+h3{
+    font-size: 40px;
+}
+section{
+    display: flex;
+}
+p{
+    font-size: 30px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: tomato;
+    font-size: 30px;
+    padding: 10px 40px;
+    border-radius: 10%;
+}
+.orange-color{
+    color: rgb(205, 50, 84);
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
