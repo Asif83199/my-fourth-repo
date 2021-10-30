@@ -12,11 +12,16 @@ h2{
     color: rgb(109, 109, 17);
     font-size: 80px;
 }
-h3{
+h4{
+    color: yellowgreen;
     font-size: 40px;
 }
-section{
+h3{
+    font-size: 30px;
+}
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 p{
     font-size: 30px;
@@ -40,4 +45,35 @@ p{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.full-width{
+    width: 80%;
+}
+.full-width img{
+    width: 40%;
+}
+.experiance-item{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    box-shadow:10px 10px 30px yellowgreen;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-develop{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full-stack-experiance{
+    border-left: 10px solid;
+    border-image: linear-gradient(green,tomato);
+    border-image-slice: 1;
+}
+footer{
+    font-size: 30px;
+    text-align: center;
 }
